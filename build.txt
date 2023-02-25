@@ -3,3 +3,4 @@ author = Cyrilly
 version = 1.0
 modReferences = RecipeBrowser
 dllReferences = NPinyin
+homepage = https://github.com/Cyrillya/RecipeBrowserPinyin

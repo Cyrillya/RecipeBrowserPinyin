@@ -5,3 +5,5 @@
 This mod is NOT for Recipe Browser users who don't know pinyin
 However, if you want to know what is pinyin, here is a link: https://en.wikipedia.org/wiki/Pinyin
 Basically this mod added pinyin search support for Recipe Browser, so you can search for items in Chinese with pinyin.
+
+Github: https://github.com/Cyrillya/RecipeBrowserPinyin
