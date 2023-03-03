@@ -1,6 +1,7 @@
 displayName = 合成表拼音搜索
 author = Cyrilly
-version = 1.0
+version = 1.1
 modReferences = RecipeBrowser
 dllReferences = NPinyin
 homepage = https://github.com/Cyrillya/RecipeBrowserPinyin
+side = Client
