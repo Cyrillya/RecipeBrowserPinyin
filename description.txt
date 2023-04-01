@@ -1,6 +1,7 @@
 让合成表(Recipe Browser)Mod支持拼音及拼音首字母搜索
 比如你想找“石头”，你可以输入“shitou”或者“st”来搜索，当然，输入“shit”也是可以的(什)
 不用切换输入法，不用输入中文，甚至不用记住中文名(?)，只要知道拼音就可以搜索到了，是不是很方便捏
+不过由于拼音匹配不是很完善，有时候可能出现与读音不同的情况，比如“宝藏袋”实际上被识别为了“baocangdai”而非“baozangdai”
 
 This mod is NOT for Recipe Browser users who don't know pinyin
 However, if you want to know what is pinyin, here is a link: https://en.wikipedia.org/wiki/Pinyin
