@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using NPinyin;
+using PinyinNet;
 using RecipeBrowser;
 using RecipeBrowser.UIElements;
 using Terraria;
@@ -22,9 +22,8 @@ public partial class RecipeBrowserPinyin
 
         string searchContent = RemoveSpaces(content.ToLower());
         string nameFixed = RemoveSpaces(name.ToLower());
-        string pinyin = RemoveSpaces(Pinyin.GetPinyin(nameFixed));
-        string pinyinInitials = Pinyin.GetInitials(nameFixed).ToLower();
-        if (pinyin.Contains(searchContent) || pinyinInitials.Contains(searchContent)) {
+        string pinyin = RemoveSpaces(PinyinConvert.GetPinyinForAutoComplete(nameFixed));
+        if (pinyin.Contains(searchContent)) {
             return true;
         }
 

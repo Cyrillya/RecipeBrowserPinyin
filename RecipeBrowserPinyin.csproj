@@ -21,6 +21,9 @@
     <Reference Include="NPinyin">
       <HintPath>lib\NPinyin.dll</HintPath>
     </Reference>
+    <Reference Include="PinyinNet">
+      <HintPath>lib\PinyinNet.dll</HintPath>
+    </Reference>
     <Reference Include="RecipeBrowser">
       <HintPath>RecipeBrowser.dll</HintPath>
     </Reference>
